@@ -1,0 +1,103 @@
+{
+    "steam":{
+        "unsuccessful":[
+            "Sorry, I couldn't find a game called {game_title}",
+            "Maybe you misspelled {game_title}? I couldn't find it :("
+        ],
+        "get_price":{
+            "general": [
+                "{game_title} is {r} right now",
+                "It's {r}",
+                "{game_title}?\nIt's {r} right now",
+                "{game_title} costs {r}.",
+                "It costs {r} on steam",
+                "It's {r} right now"
+            ],
+            "none": [
+                "it doesn't cost anything, it's free",
+                "Nothing, it's free to play"
+            ]
+        },
+        "get_dlc":{
+            "polar":{
+                "yes":[
+                    "Yeah it does, here:\n{r}",
+                    "Yep! Here you go:\n{r}"
+                ],
+                "no":[
+                    "No it doesn't, unfortunately",
+                    "Nope, I couldn't find any dlc for {game_title}"
+                ]
+            },
+            "inquiry":[
+                "{game_title} has these:\n{r}",
+                "it has these:\n{r}"
+            ],
+            "request":[
+                "Sure no problem\nHere you go: {r}",
+                "Yeah no problem: {r}",
+                "Yeah sure, give me a sec\nHere it is: {r}"
+            ],
+            "command":[
+                "Roger! Here it is: {r}",
+                "Understood! Here you go: {r}"
+            ],
+            "none":[
+                "I couldn't find any dlc for {game_title}",
+                "{game_title} doesn't have any dlc"
+            ]
+        },
+        "get_page":{
+            "command":[
+                "Roger! Here it is: {r}",
+                "Understood! Here you go: {r}"
+            ],
+            "inquiry":[
+                "This is: {r}",
+                "Here: {r}",
+                "Here you go: {r}"
+            ]
+        },
+        "is_on_sale":{
+            "polar":{
+                "yes":[
+                    "Yeah it is!\nit's on sale for {r[2]}",
+                    "Yeah it is!\nit has a {r[0]} discount!",
+                    "Yep!\nit's on sale for {r[2]}",
+                    "Yep!\nit has a {r[0]} discount!",
+                    "it is!\nreduced {r[0]} from {r[1]} to {r[2]}"
+                ],
+                "no":[
+                    "Nope! Still expensive :|",
+                    "No, it's still {r[2]}",
+                    "No it isn't, it's still {r[2]}"
+                ]
+            },
+            "none": [
+                "No it's a free game",
+                "No, it's free to play"
+            ]
+        },
+        "release_date":[
+            "it was released on {r[1]} {r[0]}, {r[2]}",
+            "the release date was {r[1]} {r[0]}, {r[2]}"
+        ],
+        "supported_platforms":{
+            "targeted":{
+                "true":[
+                    "Yep! it's playable on {r}",
+                    "Yeah it is!",
+                    "Yeah, its available on {r}"
+                ],
+                "false":[
+                    "no it isn't unfortunately",
+                    "nope, only on {r}"
+                ]
+            },
+            "general":[
+                "it's available on {r}",
+                "It's on {r}"
+            ]
+        }
+    }
+}
